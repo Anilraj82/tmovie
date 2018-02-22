@@ -11,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to MovieTalkies</h1>
         </header>
         <p className="App-intro">
+            Welcome to you!!! <br/>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>

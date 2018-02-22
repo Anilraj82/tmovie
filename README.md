@@ -1,11 +1,11 @@
-React project
+# React project
 Contains the following
--React
+- React
 
-To get started
-git clone https://github.com/Anilraj82/tmovie.git
-cd tmovie
-npm install
-npm start
+## To get started
+- git clone https://github.com/Anilraj82/tmovie.git
+- cd tmovie
+- npm install
+- npm start
 
-This repo can be found at https://tmovie.herokuapp.com/
+### This repo can be found at https://tmovie.herokuapp.com/

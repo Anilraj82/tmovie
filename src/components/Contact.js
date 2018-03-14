@@ -8,7 +8,7 @@ import { Row, Input, Button } from 'react-materialize'
 export  class Contact extends Component {
     render() {
         return (
-            <div className="bodyheight">
+            <div>
                 <h3>Contact details</h3>
                 <Row>
                     <Input type="text" label="Last Name" s={6} />
@@ -16,7 +16,6 @@ export  class Contact extends Component {
                     <Input type="textarea" label="Message" s={6} />
                 </Row>
                 <Button><Link to='/'>Back</Link></Button>
-
                 <Button onClick={""}>send</Button>
             </div>
         );

@@ -6,7 +6,7 @@ import { Parallax} from 'react-materialize'
 export default class App extends Component {
   render() {
     return (
-        <div className="bodyheight">
+        <div>
             <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
             <div className="section white">
                 <div className="row container">

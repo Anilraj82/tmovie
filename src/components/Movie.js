@@ -33,7 +33,7 @@ export class Movie extends Component {
         const {movies} = this.state;
 
         return (
-            <div className = "bodyheight">
+            <div>
                 <h4 className="test">Search movie</h4>
 
                 <Row>

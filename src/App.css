@@ -1,5 +1,12 @@
+a {
+ color: #fff;
+}
+
 .App {
-  text-align: center;
+  padding: 0px 30px;
+  background-color: #35424a;
+  border-bottom: #e8491d 3px solid;
+  min-height: 67px;
 }
 
 .App-header {
@@ -17,10 +24,36 @@
   font-size: large;
 }
 
-.button {
+.container {
+  margin: 10px auto;
+  max-width: 1280px;
+  width: 80%;
+}
+
+.bodyheight {
   margin-left: 10px;
+  min-height: 400px;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .marginTop {
   margin-top: 24px;
+}
+
+.navbar-top {
+  background-color: mediumvioletred;
+  width: 80%
+}
+
+footer.page-footer {
+  padding: 20px 0px;
+  background-color: #e8491d;
+}
+
+.btn {
+  background: #e8491d;
 }

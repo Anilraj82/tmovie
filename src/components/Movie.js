@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import '../App.css';
 import axios from 'axios';
-import {Row, Icon, Input, Button} from 'react-materialize';
+import {Row, Input, Button} from 'react-materialize';
+import { Link } from 'react-router-dom'
 
-export class SearchMovie extends Component {
+
+export class Movie extends Component {
     constructor(props) {
         super();
         this.state = {
@@ -31,11 +33,17 @@ export class SearchMovie extends Component {
         const {movies} = this.state;
 
         return (
-            <div className = "button">
+            <div className = "bodyheight">
+                <h4 className="test">Search movie</h4>
+
                 <Row>
-                    <Input s={2} label="Enter movie name" value={this.state.title} onChange={this.onTitleChange} />
-                    <Button className="marginTop" onClick={this.searchByTitle.bind(this)}>Search</Button>
+                    <Input s={4} label="Enter movie name" value={this.state.title} onChange={this.onTitleChange} />
                 </Row>
+
+                <Button><Link to='/'>Back</Link></Button>
+
+                <Button onClick={this.searchByTitle.bind(this)}>Search</Button>
+
 
                 <div>
                     { movies.length > 0 && movies.map((eachMovie, i) =>

@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Navigation } from './components/Navigation';
+import {SearchMovie} from "./components/SearchMovie";
 
-class App extends Component {
+
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to MovieTalkies</h1>
-        </header>
-        <p className="App-intro">
-            Welcome to you!!! <br/>
-            I want to welcome to you again!!! <br/>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Navigation />
+        <SearchMovie/>
       </div>
     );
   }
 }
-
-export default App;

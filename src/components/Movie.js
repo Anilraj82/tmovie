@@ -31,6 +31,7 @@ export class Movie extends Component {
 
     render() {
         const {movies} = this.state;
+        console.log(this.props);
 
         return (
             <div>

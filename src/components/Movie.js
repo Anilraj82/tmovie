@@ -36,16 +36,11 @@ export class Movie extends Component {
         return (
             <div>
                 <h4 className="test">Search movie</h4>
-
                 <Row>
                     <Input s={4} label="Enter movie name" value={this.state.title} onChange={this.onTitleChange} />
                 </Row>
-
                 <Button><Link to='/'>Back</Link></Button>
-
                 <Button onClick={this.searchByTitle.bind(this)}>Search</Button>
-
-
                 <div>
                     { movies.length > 0 && movies.map((eachMovie, i) =>
                         <li key={i}>{eachMovie.title}</li>

@@ -12,7 +12,11 @@ export  class Contact extends Component {
                 <h3>Contact details</h3>
                 <Row>
                     <Input type="text" label="Last Name" s={6} />
+                </Row>
+                <Row>
                     <Input type="email" label="Email" s={6} />
+                </Row>
+                <Row>
                     <Input type="textarea" label="Message" s={6} />
                 </Row>
                 <Button><Link to='/'>Back</Link></Button>
